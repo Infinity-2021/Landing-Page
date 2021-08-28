@@ -1,0 +1,25 @@
+
+
+.banner{
+    min-height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+    &-title{
+        text-transform: uppercase;
+    }
+}
+
+.slider{
+    img{
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+.nested{
+    height: 700px;
+    object-fit: cover;
+}
