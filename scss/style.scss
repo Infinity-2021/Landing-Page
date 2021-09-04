@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: aquamarine;
+}
 .banner{
     min-height: 500px;
     background-image: url(../img/banner.jpg);
@@ -22,7 +24,4 @@
 .nested{
     height: 700px;
     object-fit: cover;
-}
-body{
-    background-color: aquamarine;
 }

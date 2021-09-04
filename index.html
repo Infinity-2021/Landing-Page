@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <title>Landing Page</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
 <body>
-    <header class="header">
+    <header class="headers">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="img/logo.png">Ысcык Кол</a>
@@ -53,8 +53,8 @@
 
         <section class="about py-5 text-center">
           <div class="container">
-            <h2 class="display-2" >Легенда</h2>
-            <div class="row align-items-center">
+            <h2 class="display-2 mt-5">Легенда</h2>
+            <div class="row align-items-center mt-4">
             <div class="col-12 col-md-6">
               <img class="w-100 mt-4" src="img/5.jpg" alt="photo" >
             </div>
@@ -68,9 +68,7 @@
           </div>
         </section>
 
-        
-
-
+      
         <section class="slider py-5">
           <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -142,13 +140,65 @@
      </section>
     </main>
 
-    <footer class="footer text-center p-2 bg-primary">
-      <div class="container">
-        <p>&copy; 2021 Ыссык Кол </p>
-      </div>
-    </footer>
-
-   
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-2">
+            <h5>Компания</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">О нас</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Обзоры</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Отзывы</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Реквизиты</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Вакансии</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-2">
+            <h5>Услуги</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Пресса о нас</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Оформление</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наши клиенты</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Акции</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Новости</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-2">
+            <h5>Возможности</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Цены</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Волонтеры</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Акции</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Вопросы и ответы</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Партнерам</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Будьте всегда в курсе</h5>
+              <p>Ежемесячный дайджест всего нового и интересного от нас.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                <button class="btn btn-primary" type="button">Подписаться</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2021 Infinity, Inc. Все права защищены.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   <script src="js/bootstrap.bundle.min.js"></script>  
 </body>
 </html>
